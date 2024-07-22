@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meghana - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.png" type="image/png">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/profile-photo.jpg" alt="Meghana Thatikonda" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Meghana Thatikonda">Meghana Thatikonda</h1>
+
+          <p class="title">Web/SEO Developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:meghanathatikonda99@gmail.com" class="contact-link">meghanathatikonda99@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+14047840143" class="contact-link">+1 (404) 784-0143</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1999-02-18">February 18, 1999</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">LinkedIn</p>
+              <a href="https://www.linkedin.com/in/meghana-thatikonda/" class="contact-link">LinkedIn</a>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+      </div>
+
+    </aside>
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            As a Web/SEO Developer at RoofClaim, I utilize my HTML, CSS, and JavaScript skills to enhance website functionality 
+            and design, and perform SEO optimization to improve website visibility and rankings on search engines. I am passionate 
+            about delivering high-quality and user-friendly web solutions that meet the needs and expectations of our clients and users. 
+          </p>
+
+          <p>
+            I am also a Master of Science in Computer Science candidate at Georgia State University, where I have gained experience 
+            in conducting web scraping, data cleaning, and website development for various research projects, using tools such as 
+            Request, BeautifulSoup, WordPress, and UiPath. 
+          </p>
+
+          <p>
+            I bring experience as a former DevOps Engineer at TCS and a solid foundation in Computer Science from my undergraduate
+             studies at MVSR. My expertise spans CI/CD pipelines, automation, and DevOps tools, and I am passionate about the realms
+              of Machine Learning and AI. With a published research paper in Computer Science, I am eager to contribute to the 
+              field's growth and innovation. 
+          </p>
+
+          <p>
+            Let's connect and explore how I can bring my skills and enthusiasm to your team!
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  High-quality development of sites at the professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg" alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web design</h4>
+
+                <p class="service-item-text">
+                  The most modern and high-quality design made at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box icon-no-box">
+                <ion-icon name="logo-google"></ion-icon>
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Search Engine Optimization(SEO)</h4>
+
+                <p class="service-item-text">
+                  Professional SEO services to improve website visibility and ranking.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box icon-no-box">
+                <ion-icon name="infinite-outline"></ion-icon>
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">DevOps</h4>
+
+                <p class="service-item-text">
+                  Professional development and deployment of applications using DevOps practices.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+            </button>
+
+          </section>
+
+        </div>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <a href="https://drive.google.com/file/d/1q9IyRY5y48lle458C-E_-St6DJjnCprN/view?usp=sharing" 
+        download target="_blank" download="Meghana-Resume" class="download-button">
+          View My Resume
+        </a>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Georgia State University</h4>
+
+              <span>Jan 2023 — May 2024</span>
+
+              <p class="timeline-text">
+                Master of Science - MS, Computer Science
+                <br>
+                Grade: 4.07/4.3
+                <br>
+                Relevant Coursework: Natural Language Processing, Network Security, Human-Computer Interact, 
+                Web Programming, Privacy-Aware Computing, Advanced Computational Epidemiology, Optical and Wireless Networks
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Osmania University</h4>
+
+              <span>Jul 2017 — Jul 2021</span>
+
+              <p class="timeline-text">
+                Bachelor of Engineering - BE, Computer Science
+                <br>
+                Grade: 8.66/10
+                <br>
+                Relevant Coursework: Data Structures, Design & Analysis of Algorithms, Web Development, Database Management systems, 
+                Software Engineering, Computer Networks and Programming, 
+                Operating Systems, Cloud Computing, Data Mining, Artificial Intelligence, and Machine Learning
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Web/SEO Developer</h4>
+
+              <span>Jan 2024 — Present</span>
+              <span>RoofClaim.com</span>
+              <span>Kennesaw, Georgia, United States</span>
+
+              <p class="timeline-text">
+                • Enhanced website functionality and user experience using HTML, CSS, and JavaScript, complemented by designs created in Figma.
+                <br>
+                • Performed comprehensive SEO optimization techniques using SEMrush, including keyword research, on-page optimization,
+                meta tag improvements, backlink building, and content optimization while adhering to WCAG AA standards. This
+                significantly improved website visibility, overall domain authority, and specific page rankings on major search engines.
+                <br>
+                • Reduced page load time from 22 seconds to 13 seconds through strategic coding and optimization practices, enhancing 
+                user retention, reducing bounce rates, and increasing user satisfaction.
+                <br>
+                • Developed a custom plugin to seamlessly integrate Salesforce into WordPress, streamlining data management and 
+                customer relationship processes.
+                <br>
+                • Developed a plugin to integrate Google Reviews, allowing for real-time updates and display of customer feedback 
+                on the website. Configured the plugin to display location-specific reviews, ensuring that each business profile 
+                and page showcases reviews pertinent to its respective location.
+                <br>
+                • Implemented a cookie consent banner compliant with Google Consent v2 using Google Tag Manager (GTM), ensuring
+                 adherence to data privacy regulations and enhancing user trust.
+                <br>
+                • Added booking appointments using Calendar and utilized Advanced Custom Fields for page-specific content in templates
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Graduate Research Assistant(Web Scraping & Web Development & Social Media Manager)</h4>
+
+              <span>Jan 2023 — Dec 2023</span>
+              <span>Georgia State University</span>
+              <span>Atlanta, Georgia, United States</span>
+
+              <p class="timeline-text">
+                • Conducted web scraping of political rap songs from various online sources using Request and BeautifulSoup libraries.
+                <br>
+                • Applied advanced data cleaning methodologies, including regex pattern matching, outlier detection algorithms, 
+                and handling missing data, to preprocess the scraped dataset, ensuring its suitability for in-depth analysis 
+                by a specialized team.
+                <br>
+                • Architected a user-friendly WordPress website using HTML and CSS to host the scraped political rap songs 
+                for data access and exploration.
+                <br>
+                • Implemented automation processes using UiPath, reducing data upload time by 50% for improved efficiency.
+                <br>
+                • Managing social media for content dissemination and community engagement at "Intersectionality in the 
+                American South (IAS)."
+                <br>
+                • Curating and promoting diverse content, spanning podcasts, interviews, and publications.
+                <br>
+                • Designing posters using Canva to enhance visual communication and outreach.
+                <br>
+                • Dedicated to advancing diversity and inclusion in the American South.
+
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Systems Engineer (DevOps)</h4>
+
+              <span>Jun 2021 — Dec 2022</span>
+              <span>Tata Consultancy Services</span>
+
+              <p class="timeline-text">
+                • Designed and implemented multiple end-to-end CI/CD (Continuous Integration and Continuous Deployment) pipelines
+                using Jenkins, Groovy, Shell script, and Git.
+                <br>
+                • Integrated SCAS and SonarQube into Jenkins for automatic identification of open-source software in the codebase and for
+                continuous code quality inspection.
+                <br>
+                • Orchestrated pipeline execution sequentially upon code submission for review in Gerrit, enhancing error detection,
+                debugging, and code integration into production through incremental testing rigor.
+                <br>
+                • Utilized Docker for containerization, Kubernetes for orchestration, Blue Ocean dashboard, Grafana, Prometheus, and
+                Confluence for project management and monitoring.
+                <br>
+                • Managed repository artifacts and dependencies using Nexus and MIA.
+                <br>
+                • Provided Support in the migration of CI/CD flow for an existing package from Jenkins to Docklin.
+                
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Machine Learning Intern</h4>
+
+              <span>Aug 2020 — Apr 2021</span>
+              <span>Defence Research and Development Organisation (DRDO)</span>
+
+              <p class="timeline-text">
+                • Spearheaded a transformative project to modernize invoice management processes within the organization.
+                <br>
+                • Efficiently acquired and managed a diverse range of invoices, spanning various formats and sources.
+                <br>
+                • Utilized advanced OCR for digitizing and extracting text from invoices.
+                <br>
+                • Implemented advanced Natural Language Processing (NLP) techniques, including Named Entity Recognition (NER), 
+                for automated data labeling and extraction of essential fields such as "Invoice Number," "Date," "Vendor Name," 
+                and "Total Amount."
+                <br>
+                • Utilized a combination of Python programming, libraries such as NLTK and SpaCy, and machine learning algorithms
+                 to develop and implement the NER techniques, ensuring accurate and efficient extraction of invoice data.
+                 <br>
+                • Created interactive dashboards and reports using Power BI, incorporating data visualization techniques to 
+                enable stakeholders to gain valuable insights and make informed decisions based on the analyzed invoice data.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Java Full Stack Developer </h4>
+
+              <span>May 2020 — Jul 2020</span>
+              <span>
+                Computer Society of India & Global Cyber Security Forum
+              </span>
+
+              <p class="timeline-text">
+                • Developed a secure messaging website for encrypted emails, implementing AES encryption for data security. 
+                Employed advanced cryptographic techniques and methodologies, including dynamic key exchange via the Diffie-Hellman 
+                protocol, to ensure robust security measures.
+                <br>
+                • Ensured stringent user authentication protocols were in place to guarantee the identities of participants, 
+                enhancing overall trust and reliability of the messaging system.
+                <br>
+                • Employed client-side key derivation techniques to further enhance message confidentiality, utilizing 
+                cryptographic libraries and algorithms to strengthen data encryption.
+                <br>
+                • Utilized HTML, CSS, JavaScript, and Bootstrap for an intuitive user interface.
+                <br>
+                • Supported by advanced Java programming, Servlets, JSP (JavaServer Pages), and MySQL database management, 
+                for the middleware and back-end functionalities, ensuring scalability, performance, and data integrity.
+                <br>
+                • Integrated the SMTP (Simple Mail Transfer Protocol) protocol for reliable email transmission, implementing 
+                robust email handling mechanisms to ensure the delivery of encrypted messages to intended recipients.
+              </p>
+
+            </li>
+
+          </ol>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <section class="projects">
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+          </div>
+
+        </section>
+
+      </article>
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
