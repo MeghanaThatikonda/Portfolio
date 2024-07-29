@@ -484,7 +484,9 @@ main {
   #ABOUT
 \*-----------------------------------*/
 
-.about .article-title { margin-bottom: 15px; }
+.about .article-title { 
+  margin-bottom: 15px;
+}
 
 .about-text {
   color: var(--light-gray);
@@ -503,7 +505,9 @@ main {
 
 .service { margin-bottom: 35px; }
 
-.service-title { margin-bottom: 20px; }
+.service-title { 
+  margin-bottom: 20px; 
+}
 
 .service-list {
   display: grid;
@@ -545,7 +549,7 @@ main {
 }
 
 
-/**
+ /**
  * #testimonials-modal
  */
 
@@ -681,7 +685,7 @@ main {
 }
 
 .clients-item {
-  min-width: 50%;
+  min-width: 33%;
   scroll-snap-align: start;
 }
 
@@ -701,12 +705,13 @@ main {
   #RESUME
 \*-----------------------------------*/
 
-.article-title { margin-bottom: 30px; }
+.article-title { 
+  margin-bottom: 30px;
+ }
 
 .download-button-container {
   text-align: right;
   margin: 10px;
-
 }
 
 .download-button {
@@ -986,7 +991,6 @@ main {
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
 }
-
 
 
 /*-----------------------------------*\
